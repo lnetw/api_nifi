@@ -24,7 +24,7 @@
 7. `.get_dict_processor_group(id_parent_process_group, ignore_name='')`- Функция для извлечения словаря - дерево, из рекурсивного обхода группы процессов
 8. `.get_abs_path(target_dict, key)`- Функция для нахождения пути до процесса"
 9. `.extract_processor(etalon, dict_group, list_temp)`- Функция сбора процессов в единый список
-10. `.get_all_processor(id_parent_process_group, ignore_name='')`- Функция загрузки их в единый DataFrame
+10. `.get_all_processor(id_parent_process_group, ignore_name='')`- Функция загрузки списка процессов в единый DataFrame
 11. `.change_state(id_proc, state, version)`- Функция изменения состояния процессоров
 12. `.start_processor(df_change_state)`- Функция запуска процессоров
 13. `.stop_processor(df_change_state)`-Функция остановки процессоров
